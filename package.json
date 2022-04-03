@@ -1,5 +1,5 @@
 {
-  "name": "rosetta-pro",
+  "name": "i18n-rosetta",
   "version": "1.0.0",
   "description": "Sistema de traduccion de textos con parametros inspirado en Rosetta.",
   "main": "dist/index.js",
