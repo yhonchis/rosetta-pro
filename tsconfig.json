@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@dlv": ["src/dlv/index.ts"],
+      "@tmpl": ["src/tmpl/index.ts"],
+      "@rosetta-pro": ["rosetta.pro.d.ts"]
+    },
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
