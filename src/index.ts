@@ -1,9 +1,9 @@
 //* Rosetta
-import { Rosetta } from "@rosetta-pro";
+import { Rosetta } from "../rosetta.pro";
 //* Dlv
-import { dlv } from "@dlv";
+import { dlv } from "./dlv";
 //* Tmpl
-import { tmpl } from "@tmpl";
+import { tmpl } from "./tmpl";
 
 //* Roseeta
 export const rosetta = <T>(obj?: Record<string, T>): Rosetta<T> => {
